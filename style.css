@@ -86,4 +86,59 @@ body main .hero-section .right-section {
   background-image: url("./images/hosting 2 (lady-computer).png");
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+}
+body main .hero-section .right-section .triangle-one {
+  width: 50px;
+  height: 50px;
+  display: block;
+  border-left: 25px solid transparent;
+  border-right: 25px solid red;
+  border-bottom: 25px solid red;
+  border-top: 25px solid transparent;
+  position: absolute;
+  right: -20px;
+  top: 40px;
+}
+body main .hero-section .right-section .triangle-two {
+  width: 72px;
+  height: 72px;
+  display: block;
+  border-left: 36px solid transparent;
+  border-right: 36px solid red;
+  border-bottom: 36px solid red;
+  border-top: 36px solid transparent;
+  position: absolute;
+  right: -20px;
+  bottom: 50px;
+}
+body main .hero-section .right-section .triangle-three {
+  width: 40px;
+  height: 40px;
+  display: block;
+  border-left: 20px solid red;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid red;
+  border-top: 20px solid transparent;
+  position: absolute;
+  bottom: 120px;
+  left: -20px;
+}
+body main .sponsors {
+  margin: 80px 0;
+}
+body main .sponsors .sponsor-top {
+  display: flex;
+}
+body main .sponsors .sponsor-top .sponsor-top-left {
+  width: 50%;
+}
+body main .sponsors .sponsor-top .sponsor-top-right {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+body main .sponsors .sponsor-top .sponsor-top-right img {
+  display: block;
 }/*# sourceMappingURL=style.css.map */
